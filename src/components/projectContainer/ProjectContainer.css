@@ -1,0 +1,31 @@
+.projectContainer{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px 0;
+    align-items: center;
+}
+.projectContainer > h1{
+    margin-top: 5%;
+    padding-bottom: 15px;
+}
+.projectContainer > p{
+    padding-bottom: 20px;
+}
+
+.projectContainer_project{
+    display: flex;
+    width: 80vw;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:768px) {
+    .projectContainer > h1{
+        margin-top: 10%;
+    }
+    .projectContainer > p{
+        margin-left: 5%;
+    }
+}
