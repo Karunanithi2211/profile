@@ -8,7 +8,7 @@ const ContentTop = () => {
       <div className='contentTop_container'>
         <h1>Karunanithi M</h1>
         <p>Fresher, Full Stack Developer, Self Learned</p>
-        <a href='/assets/myResume.pdf' download="Karunanithi_M.pdf">
+        <a href='/assets/Karunanithi_M.pdf' download="Karunanithi_M.pdf">
             <button className='contentTop_download'>Download CV</button>
         </a>
         <div className='contentTop_work'>
