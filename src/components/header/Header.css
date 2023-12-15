@@ -97,3 +97,9 @@
     }
     
 }
+
+@media screen and (max-width:300px){
+    .header_left >h1>sup{
+        display: none;
+    }
+}
