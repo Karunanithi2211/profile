@@ -35,6 +35,12 @@ const ProjectContainer = () => {
             projectDescription:"This website is clone of Instagram with features such as login, register, profile image change, upload post(video,image), follow, unfollow, like, unlike, comment, reels, explore, search user, email verification....",
             projectVideo:"/assets/inStagram.mp4"
         },
+        {
+            projectImage:"/assets/nivakMedia.png",
+            projectTitle:"Nivak Media",
+            projectDescription:"A social Media platform similar to insta had many new featues than my previous project and i deployed it for free checkit out i will add many new features in future",
+            projectLink:"https://karunanithi-profile.vercel.app/"
+        }
     ]
   return (
     <Element name='projects' className='projectContainer'>
@@ -50,6 +56,7 @@ const ProjectContainer = () => {
                             title={project?.projectTitle}
                             desc={project?.projectDescription}
                             video={project?.projectVideo}
+                            link = {project?.projectLink}
                         />
                     )
                     
