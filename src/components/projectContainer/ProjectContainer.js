@@ -39,7 +39,7 @@ const ProjectContainer = () => {
             projectImage:"/assets/nivakMedia.png",
             projectTitle:"Nivak Media",
             projectDescription:"A social Media platform similar to insta had many new featues than my previous project and i deployed it for free checkit out i will add many new features in future",
-            projectLink:"https://karunanithi-profile.vercel.app/"
+            projectLink:"https://nivakmedia.netlify.app/"
         }
     ]
   return (
